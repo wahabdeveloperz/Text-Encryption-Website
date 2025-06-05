@@ -1,28 +1,65 @@
-# Text Encryption Tool with Black Theme
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
-  
-This project is connected to the Convex deployment named [`youthful-guineapig-635`](https://dashboard.convex.dev/d/youthful-guineapig-635).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# 🔐 Text Encryption Website – Encrypt & Decrypt Text Instantly Online
 
-## App authentication
+[![GitHub stars](https://img.shields.io/github/stars/wahabdeveloperz/Text-Encryption-Website?style=social)](https://github.com/wahabdeveloperz/Text-Encryption-Website/stargazers)
+[![Forks](https://img.shields.io/github/forks/wahabdeveloperz/Text-Encryption-Website?style=social)](https://github.com/wahabdeveloperz/Text-Encryption-Website/network)
+[![License](https://img.shields.io/github/license/wahabdeveloperz/Text-Encryption-Website)](LICENSE)
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+> 🚀 A lightweight, blazing-fast web app to **encrypt and decrypt text messages** in your browser — no data ever leaves your device!
 
-## Developing and deploying your app
+---
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
+## 🌟 Live Demo
 
-## HTTP API
+🔗 Try it now: **[Text Encryption Website Live](https://wahabdeveloperz.github.io/Text-Encryption-Website/)**
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+---
+
+## 💡 What Is This?
+
+**Text Encryption Website** is a simple yet powerful open-source web tool built for anyone who wants to:
+
+- ✉️ Send **secure messages**
+- 🔐 **Encrypt personal notes** without installing apps
+- 👨‍💻 Learn about **basic cryptography**
+- 🌐 Use a browser-based **offline text encryption tool**
+
+All encryption happens **client-side (in-browser)** using JavaScript. Your data is **never sent to a server**.
+
+---
+
+## 🔑 Features
+
+✅ **Fast & Secure** – Uses JavaScript for instant encryption & decryption  
+✅ **100% Offline** – Works without internet after loading  
+✅ **Open Source** – Fork it, modify it, use it freely  
+✅ **Mobile-Friendly UI** – Optimized for phones, tablets & desktops  
+✅ **Copy-to-Clipboard** – Quickly copy your encrypted or decrypted text
+
+---
+
+## 🧠 How It Works
+
+It uses a simple **Caesar Cipher-style encryption** to scramble your input text based on a custom key. While not suitable for military-grade security, it is perfect for:
+
+- Hiding spoilers
+- Sending fun secret messages
+- Sharing private notes
+- Learning how basic encryption works
+
+---
+
+## 🛠️ Tech Stack
+
+- 🌐 HTML5
+- 🎨 CSS3
+- ⚙️ JavaScript (Vanilla JS – No frameworks)
+
+---
+
+## 📥 Installation & Usage
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/wahabdeveloperz/Text-Encryption-Website.git
+cd Text-Encryption-Website
