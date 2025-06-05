@@ -10,7 +10,7 @@
 
 ## 🌟 Live Demo
 
-🔗 Try it now: **[Text Encryption Website Live](https://wahabdeveloperz.github.io/Text-Encryption-Website/)**
+🔗 Try it now: **[Text Encryption Website Live](https://txtoemoji.vercel.app/)**
 
 ---
 
